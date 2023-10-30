@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Bio Page</title>  
+        <title>My Bio Page</title>
+        <style>
+            table,
+td {
+  border: 4px solid #7d0000;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+        </style>  
     </head>
     <body>
+        <header>
         <nav>
             <ul>
                 <li><a href="#mybio">My Bio</a></li>
                 <li><a href="#favartists">Favorite Artists</a></li>
                 <li><a href="#favfilms">Favorite Films</a></li>
+                <li><a href="#photos">Portfolio</a></li>
             </ul>
         </nav>
+        </header>
         <h1 id="mybio">My Bio</h1>
-        <img class="fit-picture" src="KF Black Logo.png" alt="KF Black png logo">
+        <img width="200" src="KF Black Logo.png" alt="KF Black png logo">
         <h2>Introduction</h2>
-        <img class="fit-picture" src="DP.jpg" alt="Profile Picture">
+        <img width="200" src="DP.jpg" alt="Profile Picture">
         <p>My name is Kevin Fernandez. I'm a student at SAIT, studying Interactive Design - Graphic Design Major. I was a music photographer back in the Philippines. Here's some info about me.</p>
         <h2 id="favartists">Favorite Artists</h2>
         <ul>
@@ -24,7 +39,7 @@
             <li>Perfect Circle</li>
             <li>John Mayer</li>
         </ul>
-        <h3 id="favfilms">Favorite Films by Rank</h3>
+        <h2 id="favfilms">Favorite Films by Rank</h2>
         <ol>
             <li>The Godfather</li>
             <li>Fight Club</li>
@@ -32,6 +47,18 @@
             <li>Joker</li>
             <li>Imaginarium of Dr.Parnassus</li>
         </ol>
+        <h2 id="photos">Portfolio</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Music Photography</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td>Sample</td>
+                    <td>Sample</td>
+                </tbody>
+            </table>
         <footer></footer> 
     </body>
     
