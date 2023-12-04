@@ -60,3 +60,11 @@ img {
     text-decoration: wavy;
     color: rgb(9, 9, 14);
 }
+
+.even {
+  color: rgb(128, 0, 124);
+}
+
+.odd {
+  color: rgb(242, 235, 235);
+}
